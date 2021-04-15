@@ -1,25 +1,25 @@
 <!--
-theme name:       Futura dark V
+theme name:       Elliott
 version:          1.4
-author:           FlyingTomahawk
-email:            flyingtomahawk2@gmail.com
-website:          
+author:           ElliottAYoung
+email:            elliott.a.young@gmail.com
+website:
 license:          creative commons CC-BY-NC-SA
-layout based on:  Newgen theme by Ruckage 
-comments:         Please read the README.md and license.txt text files for further information regarding licenses and this theme.                        				  
+layout based on:  Futura Dark by FlyingTomahawk
+comments:         Only photos changed from FlyingTomahawk's original
 -->
 
 <theme>
     <formatVersion>3</formatVersion>
 <!-- BOF ALL 3 VIEWS //-->
     <view name="system, basic, detailed, video">
-	<!-- regular background //-->	
+	<!-- regular background //-->
 		<image name="background" extra="true">
             <path>./_art/images/f_bg_dark.png</path>
             <pos>0 0</pos>
             <size>1 0</size>
 			<color>b1b1ff</color>
-        </image>			 
+        </image>
 		<helpsystem name="help">
 			<textColor>ffffff</textColor>
 			<iconColor>ffffff</iconColor>
@@ -29,54 +29,54 @@ comments:         Please read the README.md and license.txt text files for furth
 		</helpsystem>
 		<text name="system_description, md_description,	md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_developer, md_publisher, md_genre, md_players, md_playcount, md_lbl_lastplayed, md_lbl_playcount" extra="true">
 			<fontPath>./_art/fonts/Audiowide-Regular.ttf</fontPath>
-			<color>ffffff</color>			
+			<color>ffffff</color>
 		</text>
 		<text name="system_name, system_year, system_name_year" extra="true">
 			<fontPath>./_art/fonts/SubZER0.ttf</fontPath>
-			<color>ffffff</color>				
-		</text>		
+			<color>ffffff</color>
+		</text>
 		<textlist name="gamelist">
-			<fontPath>./_art/fonts/Audiowide-Regular.ttf</fontPath>	
+			<fontPath>./_art/fonts/Audiowide-Regular.ttf</fontPath>
 			<selectorColor>eeeeee77</selectorColor>
 			<selectedColor>000000</selectedColor>
 			<primaryColor>ffffff</primaryColor>
 			<secondaryColor>ffffff</secondaryColor>
-			<forceUppercase>1</forceUppercase>			
-		</textlist>	
+			<forceUppercase>1</forceUppercase>
+		</textlist>
 		<datetime name="md_releasedate, md_lastplayed">
 			<fontPath>./_art/fonts/Audiowide-Regular.ttf</fontPath>
 			<color>ffffff</color>
-		</datetime>	
-		
+		</datetime>
+
 	</view>
 <!-- EOF ALL 3 VIEWS //-->
-	
+
 <!-- BOF SYSTEM VIEW //-->
-    <view name="system">	
-	
+    <view name="system">
+
 		<image name="screenshot_left" extra="true">
 			<pos>0.006 0.009</pos>
 			<size>0.330 0</size>
-		</image>			
+		</image>
 		<image name="screenshot_center" extra="true">
 			<pos>0.305 0.009</pos>
-			<size>0.390 0</size>			
-		</image>		
+			<size>0.390 0</size>
+		</image>
 		<image name="screenshot_right" extra="true">
 			<pos>0.663 0.009</pos>
-			<size>0.330 0</size>		
-		</image>				
+			<size>0.330 0</size>
+		</image>
 		<image name="frame_system_top" extra="true">
-			<path>./_art/images/f_system_top.png</path>		
+			<path>./_art/images/f_system_top.png</path>
 			<pos>0 0</pos>
 			<size>1 0</size>
 			<color>ffffff</color>
-		</image>		
+		</image>
 		<image name="frame_system_bottom" extra="true">
 			<path>./_art/images/f_system_bottom_dark.png</path>
 			<pos>0 0.687</pos>
 			<size>1 0</size>
-		</image>			
+		</image>
 		<text name="system_description" extra="true">
 			<pos>0.20 0.695</pos>
 			<size>0.60 0.198</size>
@@ -84,45 +84,45 @@ comments:         Please read the README.md and license.txt text files for furth
 			<fontSize>0.022</fontSize>
 			<alignment>center</alignment>
 			<forceUppercase>1</forceUppercase>
-		</text>		
-		
+		</text>
+
 	</view>
-<!-- EOF SYSTEM VIEW //-->	
+<!-- EOF SYSTEM VIEW //-->
 
 <!-- BOF BASIC VIEW //-->
 	<view name="basic">
-	
+
 		<image name="frame_basic" extra="true">
             <path>./_art/images/f_basic_dark.png</path>
             <pos>0 0</pos>
             <size>1 0</size>
-        </image>	
+        </image>
 		<image name="logo">
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.1</pos>
 			<maxSize>0.25 0.16</maxSize>
-		</image>		
+		</image>
 		<text name="system_name" extra="true">
 			<pos>0.055 0.08</pos>
 			<fontSize>0.05</fontSize>
 			<alignment>center</alignment>
 			<forceUppercase>1</forceUppercase>
-		</text>	
+		</text>
 		<text name="system_year" extra="true">
 			<pos>0.76 0.08</pos>
 			<fontSize>0.05</fontSize>
 			<alignment>center</alignment>
 			<forceUppercase>1</forceUppercase>
-		</text>			
+		</text>
 		<textlist name="gamelist">
 			<pos>0.15 0.24</pos>
 			<size>0.70 0.64</size>
 			<fontSize>0.035</fontSize>
-		</textlist>	
-		
+		</textlist>
+
 	</view>
 <!-- EOF BASIC VIEW //-->
-	
+
 <!-- BOF DETAILED & VIDEO VIEW //-->
 <view name="detailed, video">
 
@@ -130,25 +130,25 @@ comments:         Please read the README.md and license.txt text files for furth
             <path>./_art/images/f_detailed_dark.png</path>
             <pos>0 0</pos>
             <size>1 0</size>
-        </image>		
+        </image>
 		<image name="logo">
 			<origin>0 0</origin>
 			<pos>0.10 0.04</pos>
 			<maxSize>0.28 0.15</maxSize>
-		</image>	
+		</image>
 		<text name="system_name_year" extra="true">
-			<pos>0.61 0.05</pos>			
+			<pos>0.61 0.05</pos>
 			<fontSize>0.05</fontSize>
 			<alignment>center</alignment>
 			<forceUppercase>1</forceUppercase>
-		</text>				
+		</text>
 		<textlist name="gamelist">
 			<pos>0.15 0.23</pos>
 			<size>0.36 0.63</size>
 			<fontSize>0.03</fontSize>
 			<lineSpacing>1.5</lineSpacing>
 			<alignment>left</alignment>
-		</textlist>	
+		</textlist>
 		<text name="md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players">
 			<forceUppercase>1</forceUppercase>
 			<fontSize>0.023</fontSize>
@@ -164,35 +164,35 @@ comments:         Please read the README.md and license.txt text files for furth
 			<fontSize>0.020</fontSize>
 			<size>0.23 0.02</size>
 		</datetime>
-<!-- DEACTIVATED //-->		
+<!-- DEACTIVATED //-->
 		<text name="md_playcount, md_lbl_lastplayed, md_lbl_playcount, md_lbl_rating">
 			<pos>1 1</pos>
 			<size>0.1 0.1</size>
-		</text>				
+		</text>
 <!-- DEACTIVATED //-->
 		<rating name="md_rating">
 			<pos>1 1</pos>
 			<size>0.1 0.1</size>
 			<filledPath>./_art/images/star_full.png</filledPath>
 			<unfilledPath>./_art/images/star_hollow.png</unfilledPath>
-		</rating>		
+		</rating>
 <!-- DEACTIVATED //-->
 		<datetime name="md_lastplayed">
 			<pos>1 1</pos>
 			<size>0.1 0.1</size>
-		</datetime>		
-	
+		</datetime>
+
 </view>
 <!-- EOF DETAILED & VIDEO VIEW //-->
 
-<!-- BOF DETAILED VIEW //-->	
-	<view name="detailed">	
-	
+<!-- BOF DETAILED VIEW //-->
+	<view name="detailed">
+
 		<image name="md_image">
 			<origin>0.5 0.5</origin>
 			<pos>0.680 0.42</pos>
 			<maxSize>0.24 0.28</maxSize>
-		</image>	
+		</image>
 		<text name="md_description">
 			<pos>0.56 0.61</pos>
 			<size>0.42 0.25</size>
@@ -200,8 +200,8 @@ comments:         Please read the README.md and license.txt text files for furth
 			<fontSize>0.020</fontSize>
 			<alignment>left</alignment>
 			<forceUppercase>1</forceUppercase>
-		</text>			
-	<!-- Metadata positions START //-->	
+		</text>
+	<!-- Metadata positions START //-->
 		<text name="md_lbl_players">
 			<pos>0.82 0.26</pos>
 		</text>
@@ -231,15 +231,15 @@ comments:         Please read the README.md and license.txt text files for furth
 		</text>
 		<datetime name="md_releasedate">
 			<pos>0.83 0.52</pos>
-		</datetime>	
-	<!-- Metadata positions END //-->		
-		
+		</datetime>
+	<!-- Metadata positions END //-->
+
 	</view>
 <!-- EOF DETAILED VIEW //-->
 
-<!-- BOF VIDEO VIEW //-->	
+<!-- BOF VIDEO VIEW //-->
     <view name="video">
-	
+
 		<image name="md_image">
 			<origin>0.5 0.5</origin>
 			<pos>0.680 0.48</pos>
@@ -253,11 +253,11 @@ comments:         Please read the README.md and license.txt text files for furth
             <showSnapshotDelay>true</showSnapshotDelay>
 		</video>
 		<image name="md_marquee">
-			<origin>0.5 0.5</origin>		
+			<origin>0.5 0.5</origin>
 			<pos>0.680 0.24</pos>
 			<maxSize>0.135 0.32</maxSize>
 		</image>
-	<!-- regular background //-->	
+	<!-- regular background //-->
 		<image name="background">
             <path>./_art/images/f_bg_dark.png</path>
             <pos>0 0</pos>
@@ -271,8 +271,8 @@ comments:         Please read the README.md and license.txt text files for furth
 			<fontSize>0.020</fontSize>
 			<alignment>left</alignment>
 			<forceUppercase>1</forceUppercase>
-		</text>			
-	<!-- Metadata positions START //-->	
+		</text>
+	<!-- Metadata positions START //-->
 		<text name="md_lbl_players">
 			<pos>0.82 0.33</pos>
 		</text>
@@ -302,9 +302,9 @@ comments:         Please read the README.md and license.txt text files for furth
 		</text>
 		<datetime name="md_releasedate">
 			<pos>0.83 0.59</pos>
-		</datetime>	
+		</datetime>
 	<!-- Metadata positions END //-->
-	
+
 	</view>
 <!-- EOF VIDEO VIEW //-->
 
